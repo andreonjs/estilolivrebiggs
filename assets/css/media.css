@@ -1,0 +1,148 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .display-4 {
+        font-size: 1.7rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .navbar .navbar-nav .nav-item{
+        padding-left: 5px;
+      }
+      .navbar .navbar-nav .nav-item .nav-link{
+        font-size: 14px;
+      }
+      .slider-section .carousel-item{
+        height: 70vh;
+      }
+      .slider-section .carousel-item .carousel-caption{
+          display: block !important;
+      }
+      .slider-section .carousel-item .carousel-caption{
+          text-align: center !important;
+      }
+      .home-icon .home-icon-inner i{
+        padding-bottom: 5px !important;
+      }
+      .cta .my-5{
+          margin: 0 !important;
+      }
+      .home-info{
+        text-align: center;
+      }
+      .gallery img{
+        min-height: 190px;
+      }
+       
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .display-4 {
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1.8rem; 
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    .display-4 {
+        font-size: 2.2rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+    .navbar .navbar-nav .nav-item{
+        padding-left: 5px;
+      }
+      .navbar .navbar-nav .nav-item .nav-link{
+        font-size: 14px;
+      }
+      .slider-section .carousel-item .carousel-caption{
+        display: block !important;
+    }
+    .slider-section .carousel-item{
+        height: 70vh;
+      }
+      .slider-section .carousel-item .carousel-caption{
+          display: block !important;
+      }
+      .slider-section .carousel-item .carousel-caption{
+          text-align: center !important;
+      }
+      .home-icon .home-icon-inner i{
+        padding-bottom: 5px !important;
+      }
+      .cta .my-5{
+        margin: 0 !important;
+    }
+    .home-info{
+      text-align: center;
+    }
+
+    .gallery img{
+      min-height: 170px;
+    }
+        
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .display-4 {
+        font-size: 3.5rem;
+      }
+    h2{}
+    .gallery img{
+      min-height: 200px;
+    }
+
+   
+}
+
+
+/* Extra small devices (porttait phones, less than 576px) */
+
+ /* @media (max-width: 575.98px) {
+
+ }  */
+
+/*  Small devices (Landscape phones,  576px and up) */
+
+/* @media (min-width: 576px) and (max-width: 767.98px) {} */
+
+/*  Medium devices (tablets,  768px and up) */
+
+/* @media (min-width: 768px) and (max-width: 991.98px) {} */
+
+/*  Large devices (Desktop,  992px and up) */
+
+/* @media (min-width: 992px) and (max-width: 1199.98px) {} */
+
+/*  Extra-Large devices (Large Desktop, tv,  1200px and up) */
+
+/* @media (max-width: 1200px) {} */
+
+
+  
+  
+  

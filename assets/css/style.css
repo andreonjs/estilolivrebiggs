@@ -1,0 +1,212 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 700 !important;
+}
+h3{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+p{
+  font-size: 1.25rem;
+    font-weight: 300;
+}
+.display-4 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+/*# sourceMappingURL=style.css.map */
+
+/* navigation section start here */
+.navbar{
+  background-color: black !important;
+}
+.navbar .navbar-brand{
+  font-size: 20px;
+  font-weight: 600;
+}
+.navbar .navbar-brand img{
+  width: 50px;
+}
+.navbar .navbar-nav .nav-item{
+  padding-left: 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  font-size: 16px;
+
+}
+/* navigation section end here */
+
+/* Hero section Srart here */
+.slider-section .carousel-item{
+  height: 80vh;
+}
+.slider-section .carousel-img-1{
+  background: url(../img/22.jpeg);
+  background-size: cover;
+}
+.slider-section .carousel-img-2{
+  background: url(../img/estilo.jpeg);
+  background-size: cover;
+}
+.slider-section .carousel-img-3{
+  background: url(../img/1.jpeg);
+  background-size: cover;
+}
+/* Hero section End here */
+
+/* home-icon section Start here */
+.home-icon .home-icon-inner i{
+  font-size: 50px;
+}
+/* home-icon section End here */
+
+/* CTA section Start here */
+.cta{
+  background: url(../img/9.jpeg) center top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.cta::before {
+  content: '';
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  /* display: block; */
+  position: absolute;
+}
+/* CTA section End here */
+
+/* Home video section Start here */
+.home-video{
+  background: url(../img/9.jpeg) center top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.home-video::before {
+  content: '';
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  /* display: block; */
+  position: absolute;
+}
+
+.home-video i {
+  font-size: 50px;
+  animation: myAnimation 2s ease infinite;
+  -webkit-animation: myAnimation 2s ease infinite;
+  transition: all 2s ease;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+}
+@keyframes myAnimation{
+  50% {
+    transform: scale(1.5);
+    color: #f1fffa;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+} 
+/* Home video section End here */
+
+/* Gallery section Start here */
+.gallery img{
+  min-height: 250px;
+}
+/* Gallery section End here */
+
+/* sign-up video section Start here */
+/* sign-up video section End here */
+
+.footer-sec{
+  background: black;
+}
+
+
+/* stickup */
+.navbar-wrapper {
+  position: relative;
+  z-index: 15;
+  width: 100%;
+  background: blue;
+}
+
+.isStuck {
+  left: 0px;
+  width: 100%;
+  
+}
+
+/* scrool to up */
+/* scroll up to top */
+.scrollBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #3498db;
+  text-align: center;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  overflow-y: hidden;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.26);
+  display: none;
+}
+
+.scrollBtn i {
+  position: absolute;
+  font-size: 40px;
+  color: #fff;
+  top: 10px;
+  left: 17px;
+}
+
+
+/*Hover On button*/
+
+.scrollBtn:hover {
+  background-color: #2980b9;
+}
+
+.scrollBtn:hover i {
+  animation: anim .6s ease-in-out forwards reverse infinite;
+  text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.14);
+}
+
+@keyframes anim {
+  0% {
+      top: 10px;
+  }
+  50% {
+      top: 16px;
+  }
+  75% {
+      top: 4px;
+      opacity: 0.6;
+  }
+  100% {
+      top: 10px;
+      opacity: 0.8;
+  }
+}
+
+
